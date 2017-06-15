@@ -4,6 +4,9 @@
 The basic setup here is to start 6-nodes where there are 3 master nodes and
 each master node has a slave node. This example setup uses Redis 3.2.8 
 
+Note: Replace all IP-addresses in `redis.conf` of each `700x` directory for the
+      key `bind` with non-loopback addresses.
+
 ## Startup the cluster 
 
 `./start_all.sh start`
